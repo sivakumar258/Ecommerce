@@ -1,0 +1,66 @@
+.placeorder {
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-between;
+  }
+  .placeorder-left {
+    width: 45%;
+  }
+  .placeorder-left form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .placeorder-left input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .placeorder-city-state,
+  .placeorder-zip-country {
+    display: flex;
+    gap: 10px;
+  }
+  .placeorder-city-state input,
+  .placeorder-zip-country input {
+    flex: 1;
+  }
+  .placeorder-right {
+    width: 45%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .placeorder-total {
+    margin-bottom: 30px;
+  }
+  .placeorder-total div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .placeorder-payment-methods div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .placeorder-payment-methods input {
+    margin-right: 10px;
+  }
+  .placeorder-place-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .form-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 5px;
+  }
+  
